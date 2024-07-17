@@ -36,7 +36,7 @@
   margin: 0 auto;
   max-width: 1678px;
   min-height: calc(100vw * 0.43);
-  background-image: url(../images/img/main1680.png);
+  background-image: url(..//images/img/main1680.png);
   background-size: cover;
   z-index: 5;
 }
@@ -91,7 +91,7 @@
 
 @media (max-width: 1024px) {
   .main-picture-container {
-    background-image: url(/images/img/main768.png);
+    background-image: url(..//images/img/main768.png);
     min-height: calc(100vw * 0.6);
   }
 }
@@ -137,7 +137,7 @@
   
  .main-picture-container {
     min-height: calc(100vw * 1.4);
-    background-image: url(../images/img/main2.png);
+    background-image: url(..//images/img/main2.png);
   }
 
   .main-picture-container::after {
