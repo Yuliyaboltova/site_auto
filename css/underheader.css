@@ -36,7 +36,7 @@
   margin: 0 auto;
   max-width: 1678px;
   min-height: calc(100vw * 0.43);
-  background-image: url(.//images/img/main1680.png);
+  background-image: url(../images/img/main1680.png);
   background-size: cover;
   z-index: 5;
 }
