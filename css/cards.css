@@ -1,0 +1,133 @@
+.card-section {
+	padding: 0px 16px 0cqw ;
+  width: 100%;
+  background-color: #1a1a1f;
+  color: #fff;
+}
+.card-section a {
+  color: #fff;
+}
+.card-header{
+width: 100%;
+margin: 0 auto;
+color:#fff;
+padding-bottom: 30px;
+}
+.card-item img {
+  display: block;
+  transition: all 1s ease-out;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: 50% 50%;
+}
+.block-img {
+  max-height: 350px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.block-img img {
+  display: inline-block;
+	max-height: 350px;
+}
+.card {
+		display: flex;
+		width: 100%;
+		}
+.read-moor a {
+   gap: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+.header-cards {
+  width: 100%;
+}
+.card-th2 {
+  padding-bottom: 20px;
+}
+.card-header {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.card-item {
+	border: 1px solid #333;
+	margin-left: 16px;
+	flex: 0 1 33.33%;
+margin-bottom: 16px;
+  word-wrap: break-word;
+   overflow: hidden;
+  transition: 0.5s;
+ }
+.card-item:first-child{
+margin-left: 0;
+}
+.card-item-wrapper {
+  position: relative;
+}
+.card-title {
+   left: 16px;
+  bottom:  0px; 
+  color: #fff;
+	padding: 16px;
+}
+.card-row3-wrapper {
+	display: flex;
+  margin: 0 auto;
+  gap: 16px;
+  display: flex;
+  padding-top: 30px;
+}
+.card-row3:not(:first-child) {
+  margin-left: 8px;
+}
+ .card-item :hover img {
+  transform: scale(1.1);
+  display: inline-block;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: start;
+}
+.card-title h3 {
+  padding-top: 24px;
+  padding-bottom: 10px;
+  text-align: start;
+}
+@media (max-width: 900px) {
+  .card-th2 {
+    padding-top: 50px;
+  }
+  .card-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .card {
+    padding-bottom: 0;
+  }
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-item {
+    width: 100%;
+		margin-left: 0;
+  }
+  .card-item img {
+    height: 350px;
+  }
+}
+@media (max-width: 500px) {
+ .card-title{
+	padding: 16px 6px 16px;
+
+ }
+}
+@media (max-width: 400px) {
+  .card-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.sale{
+			padding-left: 10px;
+		padding-right: 10px;
+		background-color: #e2e8ef;
+		color: #262626;
+		margin: 0 auto;
+		padding-top: 70px;
+		padding-bottom: 100px;
+	}
+		@media (max-width: 936px) {
+		.sale{
+			padding-top: 40px;
+		}
+	}
+	
+	

@@ -1,0 +1,228 @@
+.advantages-header__wrapper {
+  padding: 50px 0 70px 0;
+  width: 100%;
+  }
+.advantages-header {
+  display: flex;
+  align-items: center;
+}
+.advantages-revers {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #1a1a1f;
+}
+.advantages-light {
+  padding: 100px 0;
+  display: flex;
+}
+.advantages-light__wrapper {
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.advantages-black {
+  width: 100%;
+  background-color: #1a1a1f;
+  color: #fff;
+}
+.advantages__item__header {
+	padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.advantages__text {
+  flex: 0 0 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ }
+.advantages-revers__text {
+  flex: 0 0 50%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 7%;
+}
+.advp {
+	padding-top: 5px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #e2e8ef;
+  letter-spacing: 0.01em;
+}
+.tagline {
+  line-height: 24px;
+  padding: 5px;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #e2e8ef;
+}
+.advantages__item img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 540px;
+}
+.advantages__item__text {
+  padding-bottom: 20px;
+}
+.advantages__text {
+  padding-left: 5%;
+  width: 50%;
+}
+
+.advantages__item__text h3 {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.ss-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ss-price {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ss-card {
+  transform: translateY(-8rem);
+  display: flex;
+  flex-direction: row;
+  background: #e2e8ef;
+  margin-top: 9.7rem;
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+.block-picture-sale {
+	padding: 0 16px 0 16px;
+  background-color: #1a1a1f;
+  margin-bottom: 100px;
+}
+.block-text-picture {
+  flex-direction: row-reverse;
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.block-text-picture__text {
+  padding-left: 24px;
+  padding-right: 114px;
+  padding-bottom: 35px;
+  width: 50%;
+  justify-content: end;
+  margin-top: 38%;
+}
+.block-text-picture__picture img {
+	display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.block-text-picture__picture  {
+	border: 1px solid #333;
+}
+
+.line-small-sale {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  content: "";
+  background-color: #363840;
+  height: 1px;
+  overflow: visible;
+}
+@media (max-width: 1200px) {
+  .advantages__text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 1060px) {
+	.advantages-header__wrapper{
+		padding: 0px 0 70px 0;
+	}
+  .advantages-light {
+    padding: 56px 0;
+  }
+  .advantages {
+    padding: 0;
+  }
+  .ss-card-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 780px) {
+
+	.advantages-header__wrapper {
+		padding: 0px 0 30px 0;
+}
+	.advantages-revers__text {
+    padding: 25px 16px;
+  }
+  .advantages__item img {
+    height: 350px;
+  }
+  .advantages__text {
+    width: 100%;
+    padding: 30px 16px 0 16px;
+  }
+  .advantages-light__wrapper {
+    flex-direction: column;
+  }
+  .advantages-revers {
+    flex-direction: column-reverse;
+  }
+  .ss-card {
+    height: 700px;
+    padding-bottom: 6rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+   .block-text-picture {
+    flex-direction: column;
+  }
+  .block-text-picture__text {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 5%;
+  }
+  .block-text-picture__picture {
+    width: 100%;
+  }
+  .block-text-picture__picture img {
+    max-height: 400px;
+  }
+  .line-small-sale {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 660px) {
+  .advantages__item img {
+    height: 270px;
+  }
+  .ss-card {
+    height: 950px;
+  }
+  .ss-card {
+    height: 793px;
+  }
+}
+@media (max-width: 375px) {
+  .ss-card {
+    height: 820px;
+  }
+}
+@media (max-width: 368px) {
+  .ss-card {
+    height: 1040px;
+  }
+}
