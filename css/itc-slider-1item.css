@@ -140,12 +140,12 @@
   background-size: 100% 100%;
 }
 .itc-slider-btn-prev::before {
-  background-image: url(images/icon/back.svg);
+  background-image: url(../images/icon/back.svg);
   height: 30px;
   width: 30px;
 }
 .itc-slider-btn-next::before {
-  background-image: url(images/icon/right.svg);
+  background-image: url(../images/icon/right.svg);
   height: 30px;
   width: 30px;
 }
