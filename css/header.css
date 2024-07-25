@@ -460,6 +460,11 @@ margin-left: 23px;
 }
 }
 @media (max-width: 568px) {
+
+	.header-logo img {
+    height: 40px;
+  }
+
   .nav-text {
     display: none;
   }
@@ -473,9 +478,7 @@ margin-left: 23px;
   }
 }
 @media (max-width: 357px) {
-  .header-logo img {
-    height: 43px;
-  }
+ 
   .header-tel {
     padding-right: 10px;
   }
