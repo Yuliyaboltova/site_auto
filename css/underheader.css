@@ -36,7 +36,7 @@ bottom: 0;
   max-width: 1678px;
 	width: 100%;
   min-height: calc(100vw * 0.4);
-  background-image: url(/images/img/main1680.png);
+  background-image: url(../images/img/main1680.png);
   background-size: cover;
   z-index: 5;
 }
@@ -166,7 +166,7 @@ padding-right: 21px;
 	 .main-picture-container {
 	
 		min-height: calc(100vw * 0.7);
-		background-image: url(/images/img/Frame\ 32366.png);
+		background-image: url(../images/img/Frame\ 32366.png);
 	
 	}   
 	
