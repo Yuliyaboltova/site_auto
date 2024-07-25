@@ -123,7 +123,7 @@
     max-width: 353px;
   }
   .img-line {
-    background-image: url(../images/img/stripe-picture-wide.jpg);
+    background-image: url(/images/img/stripe-picture-wide.jpg);
   }
 }
 @media (max-width: 550px) {

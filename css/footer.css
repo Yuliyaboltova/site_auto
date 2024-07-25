@@ -94,12 +94,12 @@ footer svg {
   height: 20px;
 }
 .footer-hydrated svg {
-  width: 24px;
-  height: 24px;
+  width: 21px;
+  height: 21px;
   fill: #fff;
 }
 .footer-social-item svg:hover {
-  fill: #999;
+  fill: #bbb;
 }
 .footer-social {
   display: flex;

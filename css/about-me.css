@@ -3,12 +3,14 @@
   display: flex;
 }
 .itc-slider-item-modal {
-  padding-right: 10px;
-}
+	
+  padding-right: 10px;}
+
 .container-modal a {
-  color: #fff;
+	width: 281px;
+margin-top: 30px;
   text-decoration: none;
-}
+} 
 .modal {
   position: fixed;
   top: 0;
@@ -46,9 +48,6 @@
 }
 .modal-content {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -71,13 +70,7 @@
   }
 }
 .modal-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -128,15 +121,12 @@
 .about-me-img {
   flex: 0 0 50%;
 }
-.education {
-  margin-top: 40px;
-  text-decoration: underline;
-}
+
 .itc-about-me-text h2 {
   padding-bottom: 20px;
 }
 .about-me {
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 70px;
   background-color: #f3f3f3;
 }
@@ -156,14 +146,23 @@
   }
   .container-modal {
     display: flex;
-    justify-content: center;
-  }
+   }
   .itc-about-me-block {
     flex-direction: column;
   }
-
   .itc-about-me-text {
     width: 100%;
     padding-bottom: 30px;
   }
+}
+@media (max-width: 500px) {
+	.container-modal a {
+		width: 100%;
+	} 
+	.container-modal {
+      justify-content: center;
+  }
+
+
+
 }

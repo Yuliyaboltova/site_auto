@@ -1,5 +1,4 @@
 .card-section {
-	padding: 0px 16px 0cqw ;
   width: 100%;
   background-color: #1a1a1f;
   color: #fff;
@@ -34,7 +33,7 @@ padding-bottom: 30px;
 }
 .card {
 		display: flex;
-		width: 100%;
+		width: 86%;
 		}
 .read-moor a {
    gap: 5px;
@@ -101,12 +100,13 @@ margin-left: 0;
   .card-th2 {
     padding-top: 50px;
   }
-  .card-section {
+  /* .card-section {
     padding-top: 0;
     padding-bottom: 0;
-  }
+  } */
   .card {
     padding-bottom: 0;
+		width: 90%;
   }
   .card {
     flex-direction: column;
@@ -121,6 +121,10 @@ margin-left: 0;
   }
 }
 @media (max-width: 500px) {
+
+	.block-img img {
+		max-height: 320px;
+	}
  .card-title{
 	padding: 16px 6px 16px;
 

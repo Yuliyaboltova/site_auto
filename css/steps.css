@@ -14,11 +14,10 @@
 .row-steps {
   margin: 16px auto;
   display: flex;
-  padding: 24px 40px 24px 24px 24px;
   border-radius: 8px;
 }
 .steps-title {
-  padding-top: 50px;
+  padding-top: 70px;
   margin: 0 auto;
   padding-bottom: 15px;
   text-transform: uppercase;
@@ -65,7 +64,6 @@
 }
 @media (max-width: 1000px) {
   .row-steps {
-    width: calc(100vw - 32px);
     height: 100%;
     flex-direction: column;
   }
