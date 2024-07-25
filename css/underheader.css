@@ -42,7 +42,7 @@ bottom: 0;
 }
 
 .tagline-p {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
   color: #fff;
   padding-top: 20px;
   font-size: 25px;
@@ -165,7 +165,7 @@ padding-right: 21px;
 @media (max-width: 594px) {
 	 .main-picture-container {
 	
-		min-height: calc(100vw * 0.7);
+		min-height: calc(100vw * 0.8);
 		background-image: url(../images/img/Frame\ 32366.png);
 	
 	}   
