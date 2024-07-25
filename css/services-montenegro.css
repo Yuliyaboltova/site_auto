@@ -176,7 +176,7 @@
     padding-right: 0;
   }
   .mne-picture-container img {
-    height: 380px;
+    height: 300px;
   }
   .mne-line {
     margin-top: 5px;
@@ -246,6 +246,11 @@
   }
 }
 @media (max-width: 550px) {
+
+
+   .mne-picture-container img {
+    height: 200px;
+  }
   .btn-servise-mne {
     padding-top: 20px;
   }
