@@ -2,7 +2,7 @@
 .header-social{
 	width: 100%;
 	background-color:#1a1a1f;
-	border-top: 1px solid #363840;
+	
 
 }
 
@@ -36,6 +36,7 @@ fill: #fff;
 }
 
 header {
+	border-bottom: 1px solid #363840;
   z-index: 16;
   position: relative;
   width: 100%;
@@ -129,7 +130,7 @@ height: 50px;
 }
 .breadcrumb {
   display: none;
-  padding: 25px 16px 16px;
+  padding: 20px 16px 20px 16px;
 }
 /*--НАВИГАЦИЯ-- */
 .menu-body {
@@ -299,7 +300,6 @@ width: 100%;
 		display: none;
 	} */
 
-
   .breadcrumb {
     display: block;
   }
@@ -377,12 +377,27 @@ margin-left: 23px;
     display: block;
   }
   /* -- */
-  header._active {
+  /* header._active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+  } */
+  header {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 6;
   }
+	.header-social {
+		padding-top: 80px;
+	}
+
+
+
+
+
+
   body._active {
     overflow: hidden;
   }
@@ -454,10 +469,12 @@ margin-left: 23px;
 @media (max-width: 900px) {
 	.header-social-container {
     width: 100%;
-		padding-right: 21px;
-		padding-left: 21px;
-   
-}
+	min-width: 300px;
+   		}
+	.header-social-block {
+     padding: 16px 21px 16px 21px;
+} 
+
 }
 @media (max-width: 568px) {
 
@@ -488,6 +505,13 @@ margin-left: 23px;
 		padding-left: 16px;
   
 }
+
+ .header-social-block {
+     padding: 16px ;
+} 
+
+
+
 @media (max-width: 320px) {
   .header-logo img {
     width: 120px;

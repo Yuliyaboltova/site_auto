@@ -129,13 +129,16 @@
   margin-bottom: 2px;
 }
 /*--------------------------*/
+@media (max-width: 900px) {
+  .inspection-wrapper-germany {
+    padding-top: 2rem;
+  }
+  }
 @media (max-width: 768px) {
   .text {
     width: 50%;
   }
-  .inspection-wrapper-germany {
-    padding-top: 3rem;
-  }
+
   .block-container {
     margin-left: auto;
     margin-right: auto;

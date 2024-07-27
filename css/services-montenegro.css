@@ -70,7 +70,6 @@
   display: block;
 }
 .mne-picture-container {
-  border: 1px solid #333;
   width: 52.5%;
   max-height: 100%;
   position: relative;
@@ -168,6 +167,11 @@
   }
 }
 @media (max-width: 780px) {
+
+	.mne-picture-container {
+    border: 1px solid #333;
+    }
+
   .services-mne {
     margin-bottom: 50px;
   }
@@ -176,7 +180,7 @@
     padding-right: 0;
   }
   .mne-picture-container img {
-    height: 300px;
+    height: 380px;
   }
   .mne-line {
     margin-top: 5px;
@@ -186,7 +190,7 @@
     width: 90%;
   }
   .mne-h2 {
-    padding-top: 30px;
+    padding-top: 10px;
   }
   .small-line {
     margin-top: 6px;
@@ -247,10 +251,10 @@
 }
 @media (max-width: 550px) {
 
+	.mne-picture-container img {
+		height: 270px;
+}
 
-   .mne-picture-container img {
-    height: 200px;
-  }
   .btn-servise-mne {
     padding-top: 20px;
   }
@@ -273,4 +277,10 @@
   .mne-card {
     height: 950px;
   }
+}
+@media (max-width: 900px) {
+	.breadcrumb{
+		padding-top: 95px;
+	
+	}
 }

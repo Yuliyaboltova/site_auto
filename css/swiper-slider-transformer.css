@@ -204,4 +204,12 @@
   .sst-items .swiper-slide-active:last-child {
     padding-right: 10px;
   }
+
+	.swiper-slider-transformer {
+			padding-top: 50px;
+			}
+	
+
+
+
 }

@@ -261,6 +261,11 @@ margin-bottom: 10px;
 	color: #fff;
 }
 @media (max-width: 900px) {
+
+	.carsForSale {
+     padding-top: 0px; 
+}
+
 	.cfs-header{
 		display: block;
 	}

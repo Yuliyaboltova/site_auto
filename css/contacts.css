@@ -67,7 +67,7 @@
   .contacts-box {
     flex-direction: column;
     padding-bottom: 0px;
-    padding-top: 40px;
+    padding-top: 20px;
   }
   .contact-info {
     flex: 0 0 100%;
