@@ -177,6 +177,14 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
+.block-container1920 {
+  max-width: 1140px;
+  max-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .block-container-big {
   position: relative;
   max-width: 1678px;
@@ -266,7 +274,7 @@ body {
       font-size: 14px;
   }
   .text__h4 {
-    font-size: 27px;
+    font-size: 26px;
   }
   .block-container-big {
     padding-left: 0;
@@ -299,9 +307,9 @@ body {
   .text__h3 {
     font-size: 19px;
   }
-  .text__h4 {
+  /* .text__h4 {
     font-size: 20px;
-  }
+  } */
 }
 @media (max-width: 350px) {
   .text__h2 {

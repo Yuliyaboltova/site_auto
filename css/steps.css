@@ -27,7 +27,7 @@
   align-items: center;
 }
 .step__namber {
-  color: #fff;
+  color: #000;
   width: 50px;
   height: 50px;
   display: flex;
@@ -36,7 +36,8 @@
   margin-right: 8px;
   border-radius: 50%;
   justify-content: center;
-  background-color: #4e5860;
+  background-color: #ffa401;
+  /* background-color: #4e5860; */
 }
 .step__number-line > div:nth-child(2) {
   flex-grow: 1;

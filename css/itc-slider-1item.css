@@ -16,6 +16,7 @@
 }
 .clients__stars img {
   width: 18px;
+	
 }
 
 /* --ITC-slider-- */
@@ -78,6 +79,13 @@
   letter-spacing: normal;
   padding-top: 0.6rem;
 }
+
+
+.btn-modal {
+	border: 0;
+	background-color: #fff;
+	color: #6c7073;
+	text-transform: uppercase;}
 
 .btn-modal:hover {
   padding-bottom: 3px;
@@ -174,8 +182,7 @@
 }
 
 .reviews-block {
-  display: flex;
-  padding-top: 30px;
+  display: flex;  padding-top: 30px;
   gap: 14px;
 }
 .reviews__item {
@@ -197,7 +204,7 @@
     justify-content: center;
   }
   .slide-itc-one {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 }
@@ -258,5 +265,11 @@
   .clients__stars img {
     width: 14px;
   }
+	.reviews__item{
+		padding: 13px;
+	}
+
+
+
 }
 
