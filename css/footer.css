@@ -26,7 +26,6 @@
 }
 .footer-row2 {
   display: flex;
-  width: 100%;
   flex-direction: row;
   align-items: start;
   padding-bottom: 40px;
@@ -34,7 +33,7 @@
 .footer-item {
   text-align: left;
   margin-right: 40px;
-width: 200px;
+width: 250px;
  }
 .footer-item:last-child {
   margin-right: 0;

@@ -14,11 +14,13 @@
   padding-right: 20px;
 }
 .nav-social-item:hover a {
-	color:#FDA301;
+	color:#bbb;
+	/* color:#FDA301; */
 }
 .social-link-item:hover svg {
   /* fill: #969ca3; */
-   fill: #FDA301; 
+   fill: #bbb; 
+   /* fill: #FDA301;  */
 	
 }
 .social-link-wrapper {

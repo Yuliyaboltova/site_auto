@@ -181,6 +181,13 @@
   background-color: rgb(78, 88, 96);
 }
 
+.reviews{
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+
+
 .reviews-block {
   display: flex;  padding-top: 30px;
   gap: 14px;
@@ -199,7 +206,12 @@
   background-color: transparent;
 }
 
-@media (max-width: 936px) {
+@media (max-width: 1000px) {
+
+	.reviews{
+		padding-top: 20px;
+		}
+
   .reviews-block {
     justify-content: center;
   }
@@ -245,6 +257,8 @@
   }
 }
 @media (max-width: 576px) {
+
+
   .reviews-block {
     flex-direction: column;
   }

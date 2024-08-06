@@ -1,5 +1,4 @@
 .advantages-header__wrapper {
-	text-align: center;
   padding: 50px 0 70px 0;
   width: 100%;
   }
@@ -40,6 +39,7 @@
   flex-direction: column;
  }
 .advantages-revers__text {
+	padding-left: 16px;
   flex: 0 0 50%;
   justify-content: center;
   display: flex;
@@ -157,11 +157,17 @@
     padding: 0;
   }
   .ss-card-text {
+		padding-top: 18px;
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media (max-width: 780px) {
+
+	.advantages__item img {
+    height: 300px;
+}
+
 
 	.advantages-header__wrapper {
 		padding: 0px 0 30px 0;
@@ -209,7 +215,7 @@
 }
 @media (max-width: 660px) {
   .advantages__item img {
-    height: 100%;
+    max-height: 330px;
   }
 
 	.advantages-light {
