@@ -170,11 +170,11 @@
 @media (max-width: 780px) {
 
   .btn-servise-mne {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	.mne-card-picture img {
-     top: 35%;
+     top: 40%;
    }
 	 .mne-card-text {
     padding-left: 24px;
@@ -214,6 +214,7 @@
 	    width: 100%;
     justify-content: flex-start;
     margin-top: 2rem;
+		padding-top: 20px;
   }
   .mne-picture__text h1 {
     margin-bottom: -1.2rem;
