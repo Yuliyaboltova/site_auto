@@ -184,18 +184,19 @@
 .reviews{
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+.reviews__item span{
+	font-size: 18px;
 
 }
-
 
 .reviews-block {
   display: flex;  padding-top: 30px;
   gap: 14px;
 }
 .reviews__item {
-  color: #1a1a1f;
-  background-color: #fff;
-  border: 1px solid #bbb;
+  color: #fff;
+  background-color: #4e5860;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,6 +205,8 @@
   }
 .reviews__item:hover {
   background-color: transparent;
+	color: #1a1a1f;
+	 border: 1px solid #bbb; 
 }
 
 @media (max-width: 1000px) {
@@ -255,10 +258,12 @@
   .itc-slider-indicator {
     height: 10px;
   }
-}
+
+	.reviews__item span{
+		font-size: 16px;
+		}
+	}
 @media (max-width: 576px) {
-
-
   .reviews-block {
     flex-direction: column;
   }

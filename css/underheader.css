@@ -7,13 +7,11 @@
 }
 .text999 {
   margin: 0 auto;
-bottom: 0;
+  bottom: 0;
   position: absolute;
   top: 15%;
   z-index: 5;
 }
-
-
 .main-picture-container::after {
   content: "";
   height: calc(100% + 2px);
@@ -26,21 +24,19 @@ bottom: 0;
     rgba(26, 26, 31, 0) 50%
   );
   left: 0;
-	right: 0;
-	bottom: 0;
+  right: 0;
+  bottom: 0;
 }
-
 .main-picture-container {
   position: relative;
   margin: 0 auto;
   max-width: 1678px;
-	width: 100%;
+  width: 100%;
   min-height: calc(100vw * 0.4);
   background-image: url(../images/img/main1680.png);
   background-size: cover;
   z-index: 5;
 }
-
 .tagline-p {
   padding-bottom: 30px;
   color: #fff;
@@ -54,13 +50,11 @@ bottom: 0;
 .main-picture-text__header {
   width: 63%;
 }
-
 .box-button-picture {
   width: 281px;
   position: absolute;
   left: 0;
 }
-
 .box-button a {
   width: 100%;
   display: flex;
@@ -71,7 +65,7 @@ bottom: 0;
   color: #000;
   padding: 13px 60px;
   border-radius: 4px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   white-space: nowrap;
   letter-spacing: 0.01em;
@@ -81,68 +75,45 @@ bottom: 0;
   border: 1px solid #fff;
   color: #fff;
 }
-
 @media (max-width: 1440px) {
   .tagline-p {
     padding-top: 16px;
   }
 }
-
-/* @media (max-width: 1024px) {
-  .main-picture-container {
-    background-image: url(/images/img/main768.png);
-    min-height: calc(100vw * 0.6);
-  }
-} */
 @media (max-width: 900px) {
-
-
-
-	.header-container {
-     width: 100%;
+  .header-container {
+    width: 100%;
     max-width: 1678px;
-padding-left: 21px;
-padding-right: 21px;
-}
-	.main-picture-text__header {
-		padding-top: 20px;
-}
-
-
-
-
-	.main-picture-container {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
+  .main-picture-text__header {
+    padding-top: 20px;
+  }
+  .main-picture-container {
     min-height: calc(100vw * 0.6);
-    background-image: url(../images/img/m2.png);
-  } 
-
-	.main-picture-text__header {
+    background-image: url(../images/img/main900.png);
+  }
+  .main-picture-text__header {
     width: 80%;
   }
-
   .block-container-big {
     width: 100%;
-		padding-left: 21px;
-		padding-right: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
   }
-
   .box-button-picture {
     width: 100%;
-    /* position: absolute;
-    bottom:0;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); */
   }
   .text999 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-		position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-		text-align: center;
+    text-align: center;
   }
   .picture {
     padding-left: 0;
@@ -156,34 +127,24 @@ padding-right: 21px;
       rgba(26, 26, 31, 0) 25%
     );
   }
-
   .main__h1 {
     font-size: 3rem;
   }
 }
-
 @media (max-width: 594px) {
-	 .main-picture-container {
-	
-		min-height: calc(100vw * 0.8);
-		background-image: url(../images/img/Frame\ 32366.png);
-	
-	}   
-	
-
-
-
-
-	.tagline-p {
-		padding-top: 10px;
-}
-	.main-picture-text__header {
-		width: 100%;}
- 
+  .main-picture-container {
+    min-height: calc(100vw * 0.8);
+    background-image: url(../images/img/main600.png);
+  }
+  .tagline-p {
+    padding-top: 10px;
+  }
+  .main-picture-text__header {
+    width: 100%;
+  }
   .tagline-p {
     font-size: 21px;
   }
-
   .main-picture-container::after {
     background: linear-gradient(
       to top,
@@ -191,40 +152,28 @@ padding-right: 21px;
       rgba(26, 26, 31, 0) 25%
     );
   }
- 
-
 }
-
 @media (max-width: 375px) {
   .main-picture-text__header {
     width: 100%;
   }
-
-.tagline-p {
-		font-size: 18px;
+  .tagline-p {
+    font-size: 18px;
+  }
+  .block-container-big {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
-.block-container-big {
-  
-	padding-left: 16px;
-	padding-right: 16px;
-}
-
-.header-container {
-padding-left: 16px;
-padding-right: 16px;
-}
-
-}
-
 @media (max-width: 346px) {
   .tagline-p {
     padding-top: 5px;
   }
-
-
-	.tagline-p {
-		font-size: 18px;
-}
-
-
+  .tagline-p {
+    font-size: 18px;
+  }
 }

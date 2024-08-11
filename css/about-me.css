@@ -20,11 +20,11 @@
   pointer-events: none;
 }
 .button-modal button {
-	font-size: 16px;
+	font-size: 18px;
 	margin-top: 30px;
   text-decoration: none;
-	color: #1a1a1f;
-	background-color: #fff;
+	color: #fff;
+	background-color: #4e5860;
 	border: 1px solid #bbb;
 	display: flex;
 	align-items: center;
@@ -35,6 +35,8 @@
 }
 .button-modal button:hover{
 	background-color: transparent;
+	color: #1a1a1f;
+	border: 1px solid #bbb;
 }
 .modal-open {
   opacity: 1;
