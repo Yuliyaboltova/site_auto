@@ -5,8 +5,6 @@
 .itc-slider-item-modal {
 	
   padding-right: 10px;}
-
-
 .modal {
   position: fixed;
   top: 0;
@@ -21,9 +19,8 @@
   transition: opacity 400ms ease-in;
   pointer-events: none;
 }
-
-
-.button-modal a {
+.button-modal button {
+	font-size: 16px;
 	margin-top: 30px;
   text-decoration: none;
 	color: #1a1a1f;
@@ -33,18 +30,12 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 5px;
-	padding: 11px;
-	width: 281px;
+	padding: 13px 30px;
+	min-width: 281px;
 }
-
-.button-modal a:hover{
+.button-modal button:hover{
 	background-color: transparent;
 }
-
-
-
-
-
 .modal-open {
   opacity: 1;
   pointer-events: auto;
@@ -57,7 +48,6 @@
 .itc-slider-item-modal img {
   height: 417px;
 }
-
 .itc-about-me-text {
   flex: 0 0 50%;
 }
@@ -94,8 +84,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  border-bottom: 1px solid #eceeef;
-
+ border-bottom: 1px solid #eceeef;
 }
 .modal-title {
   margin-top: 0;
@@ -172,13 +161,12 @@
   }
 }
 @media (max-width: 500px) {
-	.container-modal a {
+	.container-modal button {
 		width: 100%;
 	} 
 	.container-modal {
       justify-content: center;
   }
-
 	.about-me {
     padding-bottom: 50px;
    
