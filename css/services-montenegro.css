@@ -255,16 +255,13 @@
   }
   .mne-card-text-top {
     margin-bottom: 1rem;
-   
   }
   .footer-mne {
     margin-top: -50px;
   }
 }
 @media (max-width: 552px) {
-
   .btn-servise-mne {
-	
     padding-top: 20px;
   }
   .mne-text-p li {
@@ -279,13 +276,11 @@
     justify-content: start;
   }
 }
-
 @media (max-width: 660px) {
 	.mne-picture-container img {
 		height: 330px;
 	}
 }
-
 @media (max-width: 395px) {
 	.mne-card {
     height: 900px;

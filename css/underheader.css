@@ -11,7 +11,7 @@
   position: absolute;
   top: 15%;
   z-index: 5;
-}
+} 
 .main-picture-container::after {
   content: "";
   height: calc(100% + 2px);
@@ -47,9 +47,9 @@
   font-stretch: normal;
   letter-spacing: 0.01rem;
 }
-.main-picture-text__header {
+ .main-picture-text__header {
   width: 63%;
-}
+} 
 .box-button-picture {
   width: 281px;
   position: absolute;

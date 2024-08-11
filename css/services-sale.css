@@ -87,7 +87,11 @@
   padding-right: 40px;
 	 }
 
-
+		.dots-li {
+			list-style-type: square;
+			margin-left: 20px;
+	}
+	 
 	 .ss-card-text-wrapper{
 				margin: auto;
 			overflow: hidden;
