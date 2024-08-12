@@ -84,77 +84,6 @@
   display: none;
 }
 
-@media (max-width: 1204px) {
-  .accordion-blocks {
-    flex-direction: column;
-  }
-  .accordion-block {
-    padding-right: 0;
-  }
-}
-@media (max-width: 1024px) {
-  .line-picture {
-    width: 100%;
-  }
-  .accordion-section {
-    padding-top: 0;
-    padding-bottom: 60px;
-  }
-  .img-line img {
-    max-width: 400px;
-    top: 39%;
-    left: 45%;
-  }
-  .img-line-box {
-    margin-top: 15px;
-  }
-}
-@media (max-width: 768px) {
-  .accordion-header h2 {
-    padding-top: 20px;
-  }
-  .img-line img {
-    left: 40%;
-  }
-}
-@media (max-width: 690px) {
-  .img-line img {
-    left: 32%;
-    max-width: 353px;
-  }
-  .img-line {
-    background-image: url(../images/img/stripe-picture-wide.jpg);
-  }
-}
-@media (max-width: 550px) {
-  .img-line img {
-    max-width: 290px;
-    top: 53%;
-    left: 26%;
-  }
-  .img-line-box {
-    margin-bottom: 60px;
-  }
-  .accordion-header h2 {
-    padding-top: 0px;
-  }
-}
-@media (max-width: 425px) {
-  .img-line img {
-    max-width: 290px;
-    left: 17%;
-  }
-  .accordion-header h2 {
-    width: 100%;
-  }
-}
-@media (max-width: 350px) {
-  .img-line img {
-    max-width: 250px;
-    min-width: 250px;
-  }
-}
-
 /* STEPS */
 .steps {
   background-color: #f3f3f3;
@@ -214,11 +143,14 @@
 .step__text h4 {
   padding-bottom: 7px;
 }
-@media (max-width: 1024px) {
-  .img-line img {
-    max-width: 452px;
-    top: 38%;
-    left: 41%;
+
+
+@media (max-width: 1204px) {
+  .accordion-blocks {
+    flex-direction: column;
+  }
+  .accordion-block {
+    padding-right: 0;
   }
 }
 @media (max-width: 1000px) {
@@ -263,11 +195,104 @@
     margin-right: 0;
   }
 }
-@media (max-width: 600px) {
+
+@media (max-width: 1024px) {
+  .line-picture {
+    width: 100%;
+  }
+  .accordion-section {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  .img-line img {
+    max-width: 452px;
+    top: 38%;
+    left: 48%;
+  }
+
+  /* .img-line img {
+    max-width: 400px;
+    top: 39%;
+    left: 45%;
+  } */
+  .img-line-box {
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 900px) {
+	.img-line img {
+    left: 40%;
+  }
+}
+@media (max-width: 768px) {
+
+	.accordion-header h2 {
+   	padding-bottom: 0px; 
+  }
+  .accordion-header h2 {
+    padding-top: 20px;
+  }
+  .img-line img {
+    max-width: 385px;
+		left: 42%;
+  }
 	.steps-title {
 		padding-top: 50px;
 	}
   .step-wrapper {
     padding-bottom: 0px;
   }
+
+	.accordion-section {
+		padding-top: 25px;
+	}
+  
+  .img-line {
+    background-image: url(../images/img/stripe-picture-wide.jpg);
+  }
 }
+@media (max-width: 550px) {
+  .img-line img {
+  max-width: 320px; 
+    top: 53%;
+    left: 26%;
+  }
+  .img-line-box {
+    margin-bottom: 60px;
+  }
+  .accordion-header h2 {
+    padding-top: 0px;
+	  }
+}
+@media (max-width: 648px) {
+ 
+		.img-line img {
+					left: 31%;
+			}
+
+}
+@media (max-width: 425px) {
+
+  .img-line img {
+    max-width: 300px;
+    left: 17%;
+  }
+  .accordion-header h2 {
+    width: 100%;
+  }
+}
+@media (max-width: 355px) {
+
+	.accordion-section {
+		padding-top: 0px;
+}
+  .img-line img {
+    max-width: 250px;
+   
+  }
+}
+
+
+
