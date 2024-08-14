@@ -156,7 +156,7 @@
 @media (max-width: 375px) {
 
 .main-picture-container {
-    min-height: calc(100vw * 0.6);
+    min-height: calc(100vw * 0.5);
     background-image: url(../images/img/333.png);
 
   }
