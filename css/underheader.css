@@ -154,6 +154,14 @@
   }
 }
 @media (max-width: 375px) {
+
+.main-picture-container {
+    min-height: calc(100vw * 0.8);
+    background-image: url(../images/img/333.png);
+
+  }
+
+  
   .main-picture-text__header {
     width: 100%;
   }
